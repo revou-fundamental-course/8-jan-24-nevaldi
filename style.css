@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: chocolate;
+    height: 700px;
+    margin: 10px auto;
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    background-color: beige;
+}
