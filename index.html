@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARTIKA</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+            <h1 class="judulbesar">Kartika <em class="judulkecil">Kalkulator Matematika</em></h1>
+    </div>
+
+    <div class="container">
+        <nav>
+            <h2>Welcome to Kartika</h2>
+            <p>Hallo Semua. Selamat Datang di Website Kartika.</p> 
+            <p>Website Kartika adalah sebuah website yang digunakan untuk menghitung 
+                keliling dan luas persegi.</p>
+                <button class="tombolSwitch" id="tombolSwitch" onclick="switchMode()">Tekan Untuk Hitung Keliling</button>
+        </nav>
+       
+    </div>
+
+    <div class="hitungan">
+            <!--Bagian Perhitungan-->
+            <h3 id="namaKalkulator">Hitung Luas</h3>
+
+            <!-- Bagian Gambar -->
+            <p id="gambar"><img src="assets/persegi.PNG" alt=""></p>
+
+            <!-- Label input -->
+            <label for="nilaiSisi">Panjang Sisi :</label>
+            <input type="number" id="nilaiSisi" placeholder="Masukkan Nilai Sisi (dalam satuan cm)">
+        
+
+            <!-- Tombol Hitung -->
+            <button class="tombolHitung" onclick="hitung()">Hitung</button>
+
+            <!-- Hasil hitung -->
+            
+            <p class="text" id="rumus"></p>
+            <p class="text" id="rumus2"></p>
+            <p class="text" id="hasil">Hasil Perhitungan</p>
+
+            <!-- Tombol Reset -->
+            <button class="tombolReset" onclick="reset()">Reset</button>
+
+            <p class="copyright">&copy; 2024 Nevaldi Amnarisky</p>
+        </div>
+
+       
+
+</body>
+
+<script src="js/javascript.js"></script>
+</html>

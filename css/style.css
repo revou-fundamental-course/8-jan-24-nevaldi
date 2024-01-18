@@ -1,0 +1,182 @@
+/* styling body and background */
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/330/785/205/equations-math-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* styling header */
+.header {
+
+    background-color: cadetblue;
+    max-width: 800px;
+    height: 70px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+    color: white;
+}
+
+.judulkecil {
+    font-size: 20px;
+    color: cyan;
+}
+
+/* styling deskripsi website dan tombol switch */
+
+.container {
+    background-color: whitesmoke;
+    max-width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 0 15px 30px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 30px 15 px;
+}
+
+.tombolSwitch {
+    display: inline-block;
+    background: cornflowerblue;
+    color: whitesmoke;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.tombolSwitch:hover {
+    background-color: rgb(73, 123, 123);
+}
+
+/* styling kotak hitung, inputan dan penghitungan */
+.hitungan {
+    max-width: 800px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 15px 30px black;
+    margin: 20px auto;
+}
+
+/* Styling Hitung Keliling*/
+#namakalkulator {
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* styling gambar */
+
+#gambar {
+    text-align: center;
+}
+
+/* styling label Panjang sisi */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* styling input */
+input {
+    width: 650px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+/* styling tombol hitung */
+.tombolhitung {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: thin solid gray;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.tombolhitung:hover {
+    background-color: rgb(73, 123, 123);
+}
+
+/* styling hasil */
+#hasil {
+    margin-top: 5px;
+    font-weight: bold;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+#rumus {
+    margin-top: 5px;
+    font-weight: bold;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+#rumus2 {
+    margin-top: 5px;
+    font-weight: bold;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+/* styling tombol reset */
+.tombolReset {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 5px;
+    border: thin solid gray;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.tombolreset:hover {
+    background-color: rgb(73, 123, 123);
+}
+
+/* styling copyright */
+.copyright {
+    font-size: 15px;
+    text-align: right;
+}
